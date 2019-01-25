@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+* {
+  font-family: 'Google Sans';
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 133%;
+}
+
+.background {
+  background-image: url(https://images.unsplash.com/photo-1484544808355-8ec84e534d75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80);
+  background-position: cover center;
+  opacity: 0.33;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+header {
+  padding: 2.4rem;
+}
+
+  header .logo {
+    height: 80px;
+  }
+
+  header h2 {
+    font-size: 0.9rem;
+    opacity: 0.65;
+    font-weight: 400;
+    margin: 0;
+  }
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.65;
+  padding: 2rem 2.4rem;
+  position: absolute;
+}
+
+  footer * {
+    font-size: 0.9rem;
+    margin: 0;
+  }
